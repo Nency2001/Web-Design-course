@@ -4,8 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
-<body>
+<style>
+    *
+    {
+        box-sizing: border-box;
+        margin: 0;
+    }
     
+   
+    .container
+    {
+        height: 100vh;
+        background: linear-gradient(rgb(11, 86, 86), rgb(13, 94, 80));
+        padding: 20px;
+        
+        
+    }
+    .row
+    {
+        display: flex;
+        justify-content:space-between;
+    }
+    .col
+    {
+        text-align: center;
+        padding: 10px;
+        flex-basis: 200px;
+        box-shadow: 0 0 5px black;
+        border-radius: 10px;
+        background-color: white;
+    }
+    .fa-code, .fa-css3-alt, .fa-html5, .fa-js
+    {
+       height: 180px;
+       display: flex;
+       justify-content: center;
+       background-color: lightcoral;
+       border: none;
+       border-radius: 5px 5px 100px 0;
+       text-align: center;
+       font-size: 50px;
+       padding: 60px;
+       margin-bottom: 20px;
+    }
+    .fa-css3-alt
+    {
+       background-color: lightgreen;
+    }
+    .fa-html5
+    {
+       background-color: lightskyblue;
+    }
+    .fa-js
+    {
+       background-color: lightseagreen;
+    }
+
+
+    b
+    {
+        color: darkcyan;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        
+    }
+   
+   
+    p
+    {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 13px;
+        
+        
+    }
+    button
+    {
+        border-radius: 10px;
+        border: none;
+        padding: 4px 15px;
+        font-size: 11px;
+  
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <i class="fa-solid fa-code"></i>
+                <b>TITLE</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nesciunt perferendis exercitationem architecto quis corrupti excepturi ullam veniam? </p>
+                <button style="background-color: lightcoral;">CODE</button>
+            </div>
+
+            <div class="col">
+                <i class="fa-brands fa-css3-alt"></i>
+                <b>TITLE</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nesciunt perferendis exercitationem architecto quis corrupti excepturi ullam veniam? </p>
+                <button style="background-color: lightgreen;">CSS3</button> 
+            </div>
+
+            <div class="col">
+                 <i class="fa-brands fa-html5"></i>
+                <b>TITLE</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nesciunt perferendis exercitationem architecto quis corrupti excepturi ullam veniam?</p>
+                <button style="background-color: lightskyblue;">HTML5</button> 
+            </div>
+
+            <div class="col">
+                 <i class="fa-brands fa-js"></i>
+                <b>TITLE</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nesciunt perferendis exercitationem architecto quis corrupti excepturi ullam veniam?</p>
+                <button style="background-color: lightseagreen;">JS</button> 
+            </div>
+
+        </div>
+    </div>
 </body>
 </html>
